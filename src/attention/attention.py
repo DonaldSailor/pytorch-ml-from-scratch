@@ -1,7 +1,7 @@
 import torch
 import math
 
-from functional.softmax import softmax
+from src.functional.softmax import softmax
 
 
 def scaled_dot_product_attention(
